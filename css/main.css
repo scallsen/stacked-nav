@@ -1,40 +1,37 @@
 html {
-	box-sizing: border-box;
-  font-family: "Dosis", sans-serif;;
-
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
 }
 
-/* light brown 9a816d
-
-dark brown 795437 */
-
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: auto;
 }
 
 .navbox {
+  margin: 5px;
   width: 100%;
   max-width: 30em;
   min-width: 5em;
-  border: 1px solid #000;
-  /*padding: .5rem; */
   display: inline-block;
   text-align: center;
   background-color: #efeee9;
 }
 
-.navbox ol {
+.navbox ul {
   list-style-type: none;
   padding: 0;
   background-color: #9a816d;
 }
 
-.navbox ol li {
+.navbox ul li {
   border: 1px solid #795437;
-  /*padding-top: .1em;
-  padding-bottom: .1em; could not get it to get thinner*/
 }
-.navbox ol li a {
+
+.navbox ul li a {
   text-decoration: none;
   color: white;
 }
@@ -48,6 +45,6 @@ h1 {
   color: white;
 }
 
-.navbox ol :hover {
+.navbox ul :hover {
   background-color: #795437;
 }
