@@ -1,7 +1,53 @@
 html {
 	box-sizing: border-box;
+  font-family: "Dosis", sans-serif;;
+
 }
+
+/* light brown 9a816d
+
+dark brown 795437 */
 
 *, *::before, *::after {
 	box-sizing: inherit;
+}
+
+.navbox {
+  width: 100%;
+  max-width: 30em;
+  min-width: 5em;
+  border: 1px solid #000;
+  /*padding: .5rem; */
+  display: inline-block;
+  text-align: center;
+  background-color: #efeee9;
+}
+
+.navbox ol {
+  list-style-type: none;
+  padding: 0;
+  background-color: #9a816d;
+}
+
+.navbox ol li {
+  border: 1px solid #795437;
+  /*padding-top: .1em;
+  padding-bottom: .1em; could not get it to get thinner*/
+}
+.navbox ol li a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #795437;
+}
+
+.navbox h2 {
+  color: white;
+}
+
+.navbox ol :hover {
+  background-color: #795437;
 }
